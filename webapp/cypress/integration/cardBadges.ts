@@ -27,7 +27,7 @@ describe('Card badges', () => {
 
         // Add card description
         cy.log('**Add card description**')
-        cy.findByText('Add a description...').click()
+        cy.findByText('Добавить описание...').click()
         cy.findByRole('combobox').type('## Header\n- [ ] one\n- [x] two{esc}')
 
         // Add checkboxes

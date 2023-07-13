@@ -171,7 +171,7 @@ const TableRow = (props: Props) => {
                     <Editable
                         ref={titleRef}
                         value={title}
-                        placeholderText='Untitled'
+                        placeholderText='Заголовок'
                         onChange={onTitleChange}
                         onSave={onSave}
                         onCancel={() => setTitle(card.title || '')}
