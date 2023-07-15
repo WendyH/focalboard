@@ -311,12 +311,12 @@ export default class Plugin {
             )
             this.rhsId = rhsId
 
-            this.channelHeaderButtonId = registry.registerChannelHeaderButtonAction(<FocalboardIcon/>, () => mmStore.dispatch(toggleRHSPlugin), 'Boards', 'Boards')
+            this.channelHeaderButtonId = registry.registerChannelHeaderButtonAction(<FocalboardIcon/>, () => mmStore.dispatch(toggleRHSPlugin), 'Доски', 'Доски')
 
             this.registry.registerProduct(
                 '/boards',
                 'product-boards',
-                'Boards',
+                'Доски',
                 '/boards',
                 MainApp,
                 HeaderComponent,

@@ -16,8 +16,8 @@ import (
 
 const (
 	botUsername    = "boards"
-	botDisplayname = "Boards"
-	botDescription = "Created by Boards plugin."
+	botDisplayname = "Доски"
+	botDescription = "Создано плагином Доски."
 )
 
 var FocalboardBot = &mm_model.Bot{
