@@ -17,17 +17,6 @@ const TopBar = (): JSX.Element => {
             <div
                 className='TopBar'
             >
-                <a
-                    className='link'
-                    href={feedbackUrl}
-                    target='_blank'
-                    rel='noreferrer'
-                >
-                    <FormattedMessage
-                        id='TopBar.give-feedback'
-                        defaultMessage='Give feedback'
-                    />
-                </a>
                 <div className='versionFrame'>
                     <div
                         className='version'
