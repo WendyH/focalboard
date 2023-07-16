@@ -14,7 +14,7 @@ var manifest *model.Manifest
 const manifestStr = `
 {
   "id": "focalboard",
-  "name": "Mattermost Boards",
+  "name": "Доски",
   "description": "The Mattermost Boards plugin",
   "homepage_url": "https://github.com/mattermost/focalboard",
   "support_url": "https://github.com/mattermost/focalboard/issues",
@@ -41,9 +41,9 @@ const manifestStr = `
     "settings": [
       {
         "key": "EnablePublicSharedBoards",
-        "display_name": "Enable Publicly-Shared Boards:",
+        "display_name": "Включить общедоступные доски:",
         "type": "bool",
-        "help_text": "This allows board editors to share boards that can be accessed by anyone with the link.",
+        "help_text": "Это позволяет редакторам досок делиться досками, доступ к которым может получить любой, у кого есть ссылка.",
         "placeholder": "",
         "default": false,
         "hosting": ""
