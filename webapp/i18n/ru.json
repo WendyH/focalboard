@@ -391,7 +391,7 @@
   "tutorial_tip.got_it": "Понятно",
   "tutorial_tip.ok": "Следующий",
   "tutorial_tip.out": "Отказаться от этих советов.",
-  "tutorial_tip.seen": "Видели это раньше?"
+  "tutorial_tip.seen": "Видели это раньше?",
   "UndoRedoHotKeys.cannotRedo": "Нечего переделывать",
   "UndoRedoHotKeys.cannotUndo": "Нечего отменить",
   "UndoRedoHotKeys.canRedo": "Повторить",
@@ -458,5 +458,5 @@
   "WelcomePage.Heading": "Добро пожаловать на Доски",
   "WelcomePage.NoThanks.Text": "Нет спасибо, сам разберусь",
   "WelcomePage.StartUsingIt.Text": "Начать пользоваться",
-  "Workspace.editing-board-template": "Вы редактируете шаблон доски.",
+  "Workspace.editing-board-template": "Вы редактируете шаблон доски."
   }
