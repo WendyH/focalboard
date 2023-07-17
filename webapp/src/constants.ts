@@ -18,16 +18,16 @@ enum Permission {
 
 class Constants {
     static readonly menuColors: {[key: string]: string} = {
-        propColorDefault: 'Default',
-        propColorGray: 'Gray',
-        propColorBrown: 'Brown',
-        propColorOrange: 'Orange',
-        propColorYellow: 'Yellow',
-        propColorGreen: 'Green',
-        propColorBlue: 'Blue',
-        propColorPurple: 'Purple',
-        propColorPink: 'Pink',
-        propColorRed: 'Red',
+        propColorDefault: 'По-умолчанию',
+        propColorGray: 'Серый',
+        propColorBrown: 'Коричневый',
+        propColorOrange: 'Оранжевый',
+        propColorYellow: 'Жёлтый',
+        propColorGreen: 'Зелёный',
+        propColorBlue: 'Голубой',
+        propColorPurple: 'Фиолетовый',
+        propColorPink: 'Розовый',
+        propColorRed: 'Красный',
     }
 
     static readonly minColumnWidth = 100
@@ -37,8 +37,8 @@ class Constants {
     static readonly titleColumnId = '__title'
     static readonly badgesColumnId = '__badges'
 
-    static readonly versionString = '7.11.1'
-    static readonly versionDisplayString = 'May 2023'
+    static readonly versionString = '7.11.1.r'
+    static readonly versionDisplayString = 'Июль 2023'
 
     static readonly archiveHelpPage = 'https://docs.mattermost.com/boards/migrate-to-boards.html'
     static readonly imports = [

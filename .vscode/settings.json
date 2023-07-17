@@ -55,5 +55,9 @@
             "maxArrayValues": 64,
             "maxStructFields": -1
         }
-    }
+    },
+    "cSpell.language": "en,ru",
+    "cSpell.languageSettings": [
+
+    ]
 }
