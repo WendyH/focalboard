@@ -16,8 +16,8 @@ import (
 
 const (
 	botUsername    = "boards"
-	botDisplayname = "Доски"
-	botDescription = "Создано плагином Доски."
+	botDisplayname = "Канбан-доска"
+	botDescription = "Создано плагином Канбан-доска."
 )
 
 var FocalboardBot = &mm_model.Bot{

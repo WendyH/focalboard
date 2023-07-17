@@ -14,7 +14,7 @@ var manifest *model.Manifest
 const manifestStr = `
 {
   "id": "focalboard",
-  "name": "Доски",
+  "name": "Канбан-доска",
   "description": "The Mattermost Boards plugin",
   "homepage_url": "https://github.com/mattermost/focalboard",
   "support_url": "https://github.com/mattermost/focalboard/issues",
