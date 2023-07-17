@@ -5,6 +5,7 @@ import React, {useCallback, useMemo, useState} from 'react'
 import {useIntl} from 'react-intl'
 
 import FullCalendar, {EventChangeArg, EventInput, EventContentArg, DayCellContentArg} from '@fullcalendar/react'
+import ruLocale from '@fullcalendar/core/locales/ru'
 
 import interactionPlugin from '@fullcalendar/interaction'
 import dayGridPlugin from '@fullcalendar/daygrid'
@@ -275,6 +276,7 @@ const CalendarFullView = (props: Props): JSX.Element|null => {
             className='CalendarContainer'
         >
             <FullCalendar
+                locale={ruLocale}
                 key={activeView.id}
                 dayCellContent={dayCellContent}
                 dayMaxEventRows={5}
