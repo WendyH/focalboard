@@ -332,7 +332,7 @@ const ViewMenu = (props: Props) => {
                             />
                             <Menu.Text
                                 id='calendar'
-                                name='Calendar'
+                                name='Календарь'
                                 icon={<CalendarIcon/>}
                                 onClick={handleAddViewCalendar}
                             />
