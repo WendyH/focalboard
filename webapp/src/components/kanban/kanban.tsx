@@ -86,7 +86,7 @@ const Kanban = (props: Props) => {
 
         const option: IPropertyOption = {
             id: Utils.createGuid(IDType.BlockID),
-            value: 'New group',
+            value: 'Новая группа',
             color: 'propColorDefault',
         }
 

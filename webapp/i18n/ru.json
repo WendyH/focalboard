@@ -79,7 +79,7 @@
   "Calculations.Options.min.displayName": "Минимальный",
   "Calculations.Options.min.label": "Минимальный",
   "Calculations.Options.none.displayName": "Вычислить",
-  "Calculations.Options.none.label": "Ничто",
+  "Calculations.Options.none.label": "Ничего не вычислять",
   "Calculations.Options.percentChecked.displayName": "Проверено",
   "Calculations.Options.percentChecked.label": "Процент проверенных",
   "Calculations.Options.percentUnchecked.displayName": "Непроверенный",
